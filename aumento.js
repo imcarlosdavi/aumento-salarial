@@ -6,7 +6,7 @@ let idade = parseInt(prompt("Qual é sua idade?"))
 let salario = Number(prompt("Qual é o seu salário?"))
 
 document.body.innerHTML+=`Olá! Sr. ${nome}, você tem ${idade}
-+" anos e sua renda salarial é: ${salario}`
+anos e sua renda salarial é: ${salario}`
 
 
 let confirmar = prompt("Confirmar informações? sim/não")
@@ -28,5 +28,5 @@ for(let ano = 1; ano <= 10; ano++){
     salario += salario * aumento
     aumento *= 2
 
-    document.body.innerHTML +=`${(2024 + ano)+ " = R$" + salario.toFixed(0)}`
+    document.body.innerHTML += `<br>${(2024 + ano)+ " = R$" + salario.toFixed(2)}`
 }
